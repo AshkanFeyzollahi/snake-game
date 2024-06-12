@@ -1,0 +1,12 @@
+on: push
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PyLint
+        run: pip3 install pylint
+      - name: Lint Game
+        run: python3 -m pylint main.py
