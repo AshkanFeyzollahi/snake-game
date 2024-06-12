@@ -4,9 +4,9 @@ The snake-game which made in Python3 using Pygame.
 
 ## Requirements
 
-Python >= 3.7 (only tested on 3.10, 3.11, 3.12+ versions)
-Pip (Latest)
-git (Latest)
+* Python >= 3.7 (only tested on 3.10, 3.11, 3.12+ versions)
+* Pip (Latest)
+* git (Latest)
 
 ## How to use?
 
