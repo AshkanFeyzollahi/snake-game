@@ -1,53 +1,72 @@
-# Snake Game
+# Snake Game in Python with Pygame
 
-The snake-game which made in Python3 using Pygame.
+![Gameplay Showcase](./assets/showcase.gif)
 
-## Requirements
+This is a simple explanation of how to set up and play the "Snake Game" developed using Python3 and Pygame.
 
-* Python >= 3.7 (only tested on 3.10, 3.11, 3.12+ versions)
-* Pip (Latest)
-* git (Latest)
+## Prerequisites
 
-## How to use?
+Make sure your system meets the following conditions before proceeding:
 
-1. Open terminal/cmd and clone this repository by entering this command:
+- **Python**: Install version 3.7 or higher. This project has only been tested on versions 3.10, 3.11, and 3.12+.
+- **Pip**: Ensure you have the latest version installed for managing Python packages.
+- **Git**: Make sure you have the most recent Git client installed for cloning repositories.
+
+## Instructions
+
+Follow these steps to download, install dependencies, and play the game:
+
+1. Open your terminal or command prompt and navigate to the desired location where you want to store the project. Run the following command to clone the repository:
 
     ```bash
     git clone https://github.com/AshkanFeyzollahi/snake-game.git
     ```
 
-2. Go to the folder that you cloned repository into and open terminal/cmd
-    and install dependencies by entering one of these commands:
+2. Navigate to the newly created snake-game folder:
 
-    * Windows
+    ```bash
+    cd snake-game
+    ```
 
-        ```bash
-        python -m pip install -r requirements.txt
-        ```
+3. In the terminal or command prompt, install the required dependencies by running either of these commands based on your operating system:
 
-    * Linux/MacOS
+- For **Windows**, enter:
 
-        ```bash
-        python3 -m pip install -r requirements.txt
-        ```
+    ```bash
+    python -m pip install -r requirements.txt
+    ```
 
-    Now you can play game.
+- For **Linux** or **macOS**, enter:
 
-3. To start playing game, open terminal/cmd in same directory and
-    run one these commands:
+    ```bash
+    python3 -m pip install -r requirements.txt
+    ```
 
-    * Windows
+Once all dependencies are installed, you're ready to play the game! In the same terminal or command prompt window, run one of these commands depending on your OS:
 
-        ```bash
-        python main.py
-        ```
+- For **Windows**, enter:
 
-    * Linux/MacOS
+    ```bash
+    python main.py
+    ```
 
-        ```bash
-        python3 main.py
-        ```
+- For **Linux** or **macOS**, enter:
 
-## Issues
+    ```bash
+    python3 main.py
+    ```
 
-If you had problem while playing game, feel free to open an issue.
+## Controls
+
+During gameplay, control the snake as follows:
+
+- Up Arrow / W Key: Move the snake upward.
+- Down Arrow / S Key: Direct the snake downward.
+- Left Arrow / A Key: Guide the snake to move leftwards.
+- Right Arrow / D Key: Steer the snake rightwards.
+
+Enjoy the challenge of growing your snake longer without crashing into its own body or the game borders! Good luck!
+
+## Troubleshooting
+
+Should you encounter any issues during gameplay, please don't hesitate to report them by opening an issue within the project's GitHub page.
